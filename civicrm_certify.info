@@ -1,0 +1,22 @@
+name = CMA CiviCRM Certify
+description = Certifies participants of a CiviEvent. Certification is a fieldable Drupal entity.
+core = 7.x
+
+package = CiviCRM
+dependencies[] = civicrm
+dependencies[] = entity
+files[] = certification.pages.inc
+files[] = certification.controller.inc
+files[] = certification_rule.admin.inc
+files[] = certification_rule.pages.inc
+files[] = certification_rule.controller.inc
+
+configure = "admin/config/civicrm/certification-rule"
+
+
+package = "Community Media Advanced"
+version = "7.x-3.x"
+core = "7.x"
+project = civicrm_certify
+project_status_url = https://github.com/cm-advanced/civicrm_certify
+
