@@ -2,6 +2,15 @@ Introduction
 ------------
 CiviCRM Certify
 
+This module was originally developed on drupal.org and can be found here:
+https://www.drupal.org/project/civicrm_certify
+
+Continued development has moved to Community Media Advanced on github here:
+https://github.com/cm-advanced/civicrm_certify
+
+Formore info go here:
+https://cmadvanced.wordpress.com/
+
 This module automatically assigns contacts to groups in CiviCRM. This certification process happens in two ways: when an event organizer or instructor updates the participant status to the status defined in the certification rule; and by using the sync option in the certification rule to certify all participants of a particular CiviEvent type.
 
 Installation
